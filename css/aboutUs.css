@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+
+/* ADDING SITE STYLES HERE -- THIS IS FOR THE HEADER */	
+
+.hidden {display: none;}
+
+main
+{
+	width: 1024px;
+	margin: 0 auto;
+	padding: 0;
+	border: thin dashed #333;
+
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#mainNav{
+	height: 40px;
+	width: 590px;
+	background-color: #FA6E4F;
+	margin-top: 20px;
+
+}
+
+#socialTop{
+	height: 40px;
+	width: 150px;
+	background-color: #FB8E7E;
+
+
+}
+
+#logo{
+	margin-left: auto;
+	height: 100px;
+	width: 200px;
+	background-color: #F8CA9E;
+}
+
+/*IMPORTANT*/
+
+.important{
+	display: flex;
+	flex-direction: row;
+	background: red;
+	width: 1024px;
+}
+
+#membership{
+	background: #8EC9BB;
+	width: 512px;
+	height: 60px;
+
+}
+
+#fundraising{
+	background: #C5D7C0;
+	width: 512px;
+	height: 60px;
+
+}
+
+.banner{
+	background-color: #F2CF59;
+	width: 1024px;
+	height: 340px;
+}
+
+/*HISTORY*/
+.history{
+	background: #F8CA9D;
+	width: 1024px;
+	height: 350px;
+}
+
+/*mission*/
+.mission{
+	display: flex;
+	width: 1024px;
+	height: 490px;
+	border: thin dotted;
+	justify-content: space-around;
+	padding-top: 30px;	
+}
+
+#left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 220px;
+	height: 450px;
+
+}
+
+#missionText{
+	width: 220px;
+	height: 150px;
+	background: #C5D7C0;
+}
+
+#missionPhoto
+{
+	width: 220px;
+	height: 350px;
+	background: #FA6E4F;
+	margin-top: 20px;
+}
+
+
+#right
+{
+	width: 730px;
+	height: 450px;
+	background: #8EC9BB;
+}
+
+/*OUR TEAM*/
+
+.ourTeam{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#sayHello{
+	width: 200px;
+	height: 30px;
+	background: #F2CF59;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.column{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#Executives{
+	background: #8EC9BB;
+	width: 400px;
+	height: 600px;
+	margin: 0px 10px 20px 20px;
+}
+#Chairs{
+	background: #F8CA9E;
+	width: 400px;
+	height: 600px;
+	margin: 0px 10px 20px 20px;
+}
+
+/*FOOTER*/
+
+footer{
+	background: #F2CF59;
+	width: 1024px;
+	height: 300px;
+}
+
+
+
