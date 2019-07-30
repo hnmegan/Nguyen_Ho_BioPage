@@ -1,5 +1,5 @@
 # Nguyen_Ho_1056_Project3
-Website scaffold for TRAA website. The scaffold is based off of the wireframes for the About Us page and Highlights page.
+Bio project including 1 index page and 2 details pages.
 
 ## Authors
 * Nguyen, Thi Hai Ngoc (Megan)
@@ -8,9 +8,10 @@ Website scaffold for TRAA website. The scaffold is based off of the wireframes f
 ## Built with
 * HTML
 * CSS
-
+*JS
 ## Typography
-* Type Font: Didiot
+* Type Font: Bangla MN
 * Font size:
-h3: 23px
-p: 18px; 17px - italic; 20px - all capitalised
+h2:60px;
+h3: 30px;
+p:15px;
