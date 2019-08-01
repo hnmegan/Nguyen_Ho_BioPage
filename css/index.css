@@ -3,55 +3,85 @@
 {
     display: none;
 }
+
 body
 {
-    
     font-family: Bangla MN;
     align-items: center;
     background: url(../images/Background_home.png) center no-repeat;
     background-size: cover;
     max-width: 1440px;
-
-
 }
+
 main
 {
-
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 70px;
     justify-content: space-around;
-
-
 }
 
-h2{
+h2
+{
     font-size: 60px;
 }
 
-h3{
+h3
+{
     font-size: 30px;
 }
 
-p{
+p
+{
     font-size: 15px;
     margin-top: 20px;
     line-height: 30px;
 }
 
-#daf_home{
+#dafHome
+{
     margin-top: -85px;
 }
 
-#intro{
+#dafHome img, #megHome img
+{
+    /*animation: fadeIn 5s infinite;*/
+}
+
+@keyframes fadeIn
+{
+    0%
+    {
+        -webkit-filter: sepia(0) saturate(1);
+        filter: sepia(0) saturate(1); 
+    }
+
+    50%
+    {
+        -webkit-filter: sepia(1) saturate(3);
+        filter: sepia(1) saturate(3);
+    }
+
+    100%
+    {
+        -webkit-filter: sepia(0) saturate(1);
+        filter: sepia(0); saturate(1);    
+    }
+}
+
+
+
+
+#intro
+{
     margin-top: 40px;
     width: 600px;
 }
 
 
-#column3{
+#column3
+{
     text-align: right;
-
 }
 
